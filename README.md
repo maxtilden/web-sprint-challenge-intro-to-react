@@ -80,7 +80,19 @@ After finishing your required elements, you can push your work further. These go
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
+(four questions that are all number 1? you must be very proud of all of them)
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React allows for reusable components so we do not have to hard-code, and it allows for certain parts of a page to change data without effecting the rest of the page.  It is  a library that beings in functionality for builiding things that help with user interface.
+
 1. Describe component state.
+
+component state holds information (an object, because everything in javascript is an object) that can change and be updated due to certain things happening.
+
 1. Describe props.
+
+In react, props allow us to pass variables to different components, they are global variables.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+a side effect is anything that effects something outside the scope of the current function, we can sinc side effects to certain changes by including a second argument in useEffect that is an array and will cause useEffect to run everytime the elements in that array are changed or rendered.
